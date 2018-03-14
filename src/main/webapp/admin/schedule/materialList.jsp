@@ -25,7 +25,7 @@
     <script type="text/javascript" src="/static/js/urlUtil.js"></script>
     <script type="text/javascript" src="/static/js/dialogbox.js"></script>
     <script type="text/javascript" src="/static/js/viewFlowImage.js"></script>
-    <script type="text/javascript" src="/static/myjs/schedule/materialList.js"></script>
+    <script type="text/javascript" src="/static/myjs/schedule/materialList.js?199508193715"></script>
     <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/custombase.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/default/om-default.css" />
