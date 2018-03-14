@@ -1,25 +1,23 @@
-<%@ page import="java.util.Date" %>
-<%@ page import="java.text.DateFormat" %><%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2018/3/13
-  Time: 15:54
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="GBK" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ page import="java.util.*" %>
+<%@ page import="java.text.*" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>中共湖南省委直属机关党校</title>
+    <title>�й�����ʡίֱ�����ص�У</title>
     <meta name="renderer" content="webkit">
     <script type="text/javascript" src="/static/js/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/operamasks-ui.min.js"></script>
     <script type="text/javascript" src="/static/js/common.js"></script>
     <script type="text/javascript" src="/static/js/dialogbox.js"></script>
-    <script type="text/javascript" src="/static/myjs/admin/index.js?199508193719"></script>
+    <script type="text/javascript" src="/static/myjs/admin/index.js"></script>
     <link rel="stylesheet" type="text/css"
-          href="/static/css/default/om-default.css"/>
+          href="/static/css/default/om-default.css?199508193715"/>
     <link rel="stylesheet" type="text/css" href="/static/css/manage.css"/>
     <link rel="stylesheet" href="/static/css/main.css" type="text/css"></link>
+
     <style type="text/css">
         html, body {
             width: 100%;
@@ -57,16 +55,14 @@
             padding: 6px;
             margin-right: 20px
         }
-
     </style>
 </head>
-<body>
-
+<BODY>
 <div id="top-panel" class="header">
     <div class="logo">
         <a><img src="/static/login/Home page images/bplogin.png"/> </a>
     </div>
-    <div class="header_item" align="right">
+    <div style="margin-top: -30px;" class="header_item" align="right">
         <div class="header_item_body">
             <div align="right" style="float: right;">
                 <ul>
@@ -80,7 +76,7 @@
                         <div style="margin: -5px 0px; cursor: pointer;">
                             <a href="javascript:void(0)" onclick=
                                     openMain();
-                            ><span>首页</span>
+                            ><span>��ҳ</span>
                             </a>
                         </div>
                     </li>
@@ -91,7 +87,7 @@
                         <div style="margin: -5px 0px; cursor: pointer;">
                             <a href="javascript:void(0)" onclick=
                                     openHelp();
-                            ><span>帮助</span>
+                            ><span>����</span>
                             </a>
                         </div>
                     </li>
@@ -103,7 +99,7 @@
                             <a href="javascript:void(0)" onclick=
                                     openSys();
                             ><span
-                                    id="fmessage" value="">消息</span> </a>
+                                    id="fmessage" value="">��Ϣ</span> </a>
                         </div>
                     </li>
                     <li style="text-align: center;">
@@ -113,7 +109,7 @@
                         <div style="margin: -5px; cursor: pointer;">
                             <a href="javascript:void(0)" onclick=
                                     openUserinfo();
-                            ><span>个人信息</span>
+                            ><span>������Ϣ</span>
                             </a>
                         </div>
                     </li>
@@ -124,7 +120,7 @@
                         <div style="margin: -5px; cursor: pointer;">
                             <a href="javascript:void(0)" onclick=
                                     openUpdatePassword();
-                            ><span>密码修改</span>
+                            ><span>�����޸�</span>
                             </a>
                         </div>
                     </li>
@@ -133,7 +129,7 @@
                             <img src="/static/login/Home page images/System exit.png"/>
                         </div>
                         <div style="margin: -5px; cursor: pointer;">
-                            <a href="/static/userlogin.jsp"> <span style="color: white">系统退出
+                            <a href="/static/userlogin.jsp"> <span style="color: white">ϵͳ�˳�
 									</span> </a>
                         </div>
                     </li>
@@ -146,14 +142,14 @@
         <div style="float: left;">
             <a onclick=
                        openMenuPanel();
-            >展开/隐藏菜单</a>&nbsp;&nbsp;
+            >չ��/���ز˵�</a>&nbsp;&nbsp;
             <!--
-				您当前所在:${datacenterAliasName}
+				����ǰ����:${datacenterAliasName}
 				 -->
         </div>
         <div style="float: left;"></div>
         <div style="float: right;">
-            今天是
+            ������
             <%
                 DateFormat fullFormat = DateFormat.getDateInstance(DateFormat.FULL);
                 Date date = new Date();
@@ -169,7 +165,7 @@
     <div id="center-tab">
         <ul>
             <li>
-                <a href="#tab1">主页</a>
+                <a href="#tab1">��ҳ</a>
             </li>
         </ul>
         <div id="tab1" style="overflow: hidden">
@@ -180,8 +176,8 @@
 <div id="west-panel">
     <ul id="myTree"></ul>
     <!--
-    <br><a href="#" style="color: red;" onclick="showLink(null,null)" >菜单管理</a>&nbsp;
-    <a href="#" style="color: red;" onclick="loadTree()" >刷新菜单</a>
+    <br><a href="#" style="color: red;" onclick="showLink(null,null)" >�˵�����</a>&nbsp;
+    <a href="#" style="color: red;" onclick="loadTree()" >ˢ�²˵�</a>
  -->
 </div>
 <div>
@@ -197,6 +193,5 @@
         <input id="frealName" name="frealName" type="hidden"/>
     </form>
 </div>
-
-</body>
+</BODY>
 </html>

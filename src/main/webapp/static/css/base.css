@@ -1,0 +1,50 @@
+html,body,div,span,h1,ul{margin:0;padding:0;}
+html{font-size:12px; font-family:Arial, Helvetica, sans-serif, "微软雅黑";background-color:#f5f5f5;}
+a:link {color: #333;text-decoration: none;}
+a:visited {text-decoration: none;color: #333;}
+a:hover {text-decoration: none;color: #333;}
+a:active {text-decoration: none;color: #333;}
+ul{ list-style:none;}
+.clr{clear:both;}
+.flt{float:left;}
+.none{display:none;}
+.zhuti{width:100%;height:auto;}
+.zhuti_center{width:1170px;height:800px;padding-left:15px;padding-right:15px; margin:0 auto;}
+.dikuang{width:280px;height:auto;border-radius:20px;float:left;position:relative;padding-bottom: 6px;}
+.dkbg_1{background:url(../images/dkdi_2.png) no-repeat center ;height:354px;}
+.dkbg_2{background:url(../images/dkdi_1.png) no-repeat center ;height:354px;}
+.dkbg_3{background:url(../images/dkdi_3.png) no-repeat center ;height:354px;}
+.dkbg_4{background:url(../images/dkdi_4.png) no-repeat center ;height:354px;}
+.dkbg_5{background: url(../images/dkdi_5.png) no-repeat center;}
+.dk1{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#325ba5;position:relative;}
+.dk2{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#cc7732;position:relative;}
+.dk3{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#b88a5c;position:relative;}
+.dk4{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#2f5e8e;position:relative;}
+.dk5{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#336666;position:relative;}
+.dk6{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#8b5c2e;position:relative;}
+.dk7{width:280px;height:420px;border-radius:20px;margin-left:5px;margin-right:5px; float:left; margin-top:40px;background:#639494;position:relative;}
+.biaoti{width:160px;height:40px;margin-top:20px;margin-left:10px;line-height:39px;font-size:14px; color:#fff; font-family:"微软雅黑";}
+.bt1{background:url(../images/dk_1.png) no-repeat;}
+.bt2{background:url(../images/dk_2.png) no-repeat;}
+.bt3{background:url(../images/dk_3.png) no-repeat;}
+.bt4{background:url(../images/dk_4.png) no-repeat;}
+.bt5{background:url(../images/dk_5.png) no-repeat;}
+.bt6{background:url(../images/dk_6.png) no-repeat;}
+.bt7{background:url(../images/dk_7.png) no-repeat;}
+.bt_tubiao{height:36px;margin-right:20px;margin-left:6px; position:relative; bottom:7px;}
+.btn_1{width:158px;height:39px;margin-left:84px;margin-top:40px; cursor:pointer;border:dashed 1px #fff;border-radius:6px;}
+.btn{width:158px;height:39px;margin-left:84px;margin-top:20px; cursor:pointer;border:dashed 1px #fff;border-radius:6px;}
+.btn:hover,.btn_1:hover{border:none;}
+.bta:hover{background:url(../images/dk_1.png) no-repeat;}
+.btb:hover{background:url(../images/dk_2.png) no-repeat;}
+.btc:hover{background:url(../images/dk_3.png) no-repeat;}
+.btd:hover{background:url(../images/dk_4.png) no-repeat;}
+.bte:hover{background:url(../images/dk_5.png) no-repeat;}
+.btf:hover{background:url(../images/dk_6.png) no-repeat;}
+.btg:hover{background:url(../images/dk_7.png) no-repeat;}
+.btn_tu{width:38px;height:39px; margin-left:20px;line-height:39px;}
+.btn_tu img{height:26px;vertical-align:middle; position:relative;top:6px;}
+.btn_ft{height:39px;color:#fff;margin-left:5px; text-align:center; line-height:39px; font-size:14px;}
+
+
+

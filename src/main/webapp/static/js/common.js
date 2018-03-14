@@ -86,13 +86,13 @@
 		
 		//工具栏跟随滚动条移动 add by qingfeng_li 2014-3-14
        $(window).scroll(function(){
-           var top = $('#toolbarContain').offset().top + $('#toolbarContain').height();
+    /*       var top = $('#toolbarContain').offset().top + $('#toolbarContain').height();
            var windowScroll = $(window).scrollTop();
            if( top <= windowScroll ){
                $("#toolbar").addClass("toolbar-float");
            }else{
                $("#toolbar").removeClass("toolbar-float");
-           }
+           }*/
        });
        
 	//新页签打开	
