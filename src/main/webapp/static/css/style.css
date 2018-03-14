@@ -1,0 +1,32 @@
+*{margin:0px; padding:0px}
+    body{background:#fff}
+    
+    .item{width:167px; height:50px; text-align:center}
+    .item a{font-size:18px; color:#363737; text-decoration:none; display:block; line-height:42px}
+    .item a:hover{color:#fff; text-decoration:underline;}
+    .color_yellow{background:url(../images/mainPage/item_yellow.png) top left no-repeat;}
+    .color_red{background:url(../images/mainPage/item_red.png) top left no-repeat;}
+    .color_blue{background:url(../images/mainPage/item_blue.png) top left no-repeat;}
+    .color_gray{background:url(../images/mainPage/item_gray.png) top left no-repeat;}
+    .color_orange{background:url(../images/mainPage/item_orange.png) top left no-repeat;}
+    .color_green{background:url(../images/mainPage/item_green.png) top left no-repeat;}
+    .color_purple{background:url(../images/mainPage/item_purple.png) top left no-repeat;}
+    
+    .blank_h{width:111px; height:50px;}
+    .blank_v{height:38px;}
+    
+    .line_h_yellow{background:url(../images/mainPage/line_h_yellow.png) center center no-repeat;}
+    .line_h_red{background:url(../images/mainPage/line_h_red.png) center center no-repeat;}
+    .line_h_blue{background:url(../images/mainPage/line_h_blue.png) center center no-repeat;}
+    .line_h_gray{background:url(../images/mainPage/line_h_gray.png) center center no-repeat;}
+    .line_h_orange{background:url(../images/mainPage/line_h_orange.png) center center no-repeat;}
+    .line_h_green{background:url(../images/mainPage/line_h_green.png) center center no-repeat;}
+    .line_h_purple{background:url(../images/mainPage/line_h_purple.png) center center no-repeat;}
+            
+    .line_v_yellow{background:url(../images/mainPage/line_v.png) center center no-repeat;}
+    .line_v_red{background:url(../images/mainPage/line_v_red.png) center center no-repeat;}
+    .line_v_blue{background:url(../images/mainPage/line_v_blue.png) center center no-repeat;}
+    .line_v_gray{background:url(../images/mainPage/line_v_gray.png) center center no-repeat;}
+    .line_v_orange{background:url(../images/mainPage/line_v_orange.png) center center no-repeat;}
+    .line_v_green{background:url(../images/mainPage/line_v_green.png) center center no-repeat;}
+    .line_v_purple{background:url(../images/mainPage/line_v_purple.png) center center no-repeat;}

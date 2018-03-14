@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <constant name="struts.action.excludePattern" value="/static/.*?" />
+    <package name="test" extends="struts-default" namespace="/">
+        <action name="test" class="testAction">
+            <result >/index.jsp</result>
+        </action>
+        <action name="getEleTaxInfo" class="testAction" method="getEleTaxInfo">
+            <result >/index.jsp</result>
+        </action>
+        <action name="operationInfo" class="testAction" method="operationInfo">
+        </action>
+        <action name="omTreeInfo" class="testAction" method="omTreeInfo"></action>
+    </package>
+</struts>

@@ -1,0 +1,74 @@
+input  {
+	color: #070707;
+	border-top-width: 1.2px;
+	border-right-width: 1.2px;
+	border-bottom-width: 1.2px;
+	border-left-width: 1.2px;
+	BORDER-BOTTOM: #BED6F0 1px solid;
+	BORDER-LEFT: #BED6F0 1px solid;
+	BORDER-RIGHT: #BED6F0 1px solid;
+	BORDER-TOP: #BED6F0 1px solid;
+	HEIGHT: 18px;
+	font-size: 9pt
+}
+
+.input2 {
+	BORDER-BOTTOM: #C0D8F2 1px solid;
+	BORDER-LEFT: #C0D8F2 1px solid;
+	BORDER-RIGHT: #C0D8F2 1px solid;
+	BORDER-TOP: #C0D8F2 1px solid;
+	border-top-width: 1.2px;
+	border-right-width: 1.2px;
+	border-bottom-width: 1.2px;
+	border-left-width: 1.2px ;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "宋体";
+	font-size: 12px;
+	color:#red ;
+}
+
+.input3 {
+	font-size: 14;
+}
+
+.tablecss{
+<!--border:blue 2px solid   border: 1px solid EFF709;-->
+    border:#BED6F0 1px solid;
+	padding: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+
+select {
+	position: relative;
+	left: -2px;
+	top: -2px;
+	line-height: 14px;
+	color: #070707;
+	background: none;
+	border: 1 solid #BED6F0;
+	background-color: Transparent;
+	border-style: #BED6F0;
+	border-width: 1px;
+}
+
+ label.error{
+        background: #fff6bf url(../../js/alert.png) center no-repeat;
+		background-position: 5px 50%;
+		text-align: left;
+		padding: 2px 20px 2px 25px;
+		border: 1px solid #ffd324;
+		display: none;
+		width: 200px;
+		margin-left: 10px;
+       }
