@@ -6,7 +6,7 @@
 
 <struts>
     <constant name="struts.action.excludePattern" value="/static/.*?" />
-    <package name="test" extends="struts-default" namespace="/">
+    <package name="test" extends="struts-default" namespace="/admin/schedule">
         <action name="test" class="testAction">
             <result >/index.jsp</result>
         </action>
@@ -16,5 +16,6 @@
         <action name="operationInfo" class="testAction" method="operationInfo">
         </action>
         <action name="omTreeInfo" class="testAction" method="omTreeInfo"></action>
+        <action name="action_list" class="testAction" method="action_list"></action>
     </package>
 </struts>

@@ -57,6 +57,8 @@
         }
     </style>
 </head>
+<%session.setAttribute("userID","b00ad7e49dea406c9c6336654d5e94fb10000008");%>
+<%session.setAttribute("username","sa");%>
 <BODY>
 <div id="top-panel" class="header">
     <div class="logo">

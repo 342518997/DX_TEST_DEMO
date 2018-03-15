@@ -2064,16 +2064,16 @@ function showLink(nodeData, event) {
     /*    alert(JSON.stringify(nodeData));*/
     if (nodeData.fisleaf == '1') {//是否是叶子
         //如果页签已打开则激活页签，否则新增页签
-        var  tabid = tabElement.omTabs('getAlter', 'tab_' + nodeData.id);
+        var tabid = tabElement.omTabs('getAlter', 'tab_' + nodeData.id);
         if (tabid) {//激活页签
             tabElement.omTabs('activate', tabid);
         } else {//新增页签
             if (nodeData.furl != null && nodeData.furl != "") {
                 var url = nodeData.furl;
-                if(url.indexOf("?")==-1){
-                    url +="?";
-                }else {
-                    url +="&";
+                if (url.indexOf("?") == -1) {
+                    url += "?";
+                } else {
+                    url += "&";
                 }
                 url += "title=" + escape(nodeData.text) + "&menuid="
                     + escape(nodeData.fid);//新增界面别名参数，以便在界面显示  add by qingfeng_li 2013-12-25
