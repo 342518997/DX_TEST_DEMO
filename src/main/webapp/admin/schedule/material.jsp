@@ -26,7 +26,8 @@
     <script type="text/javascript" src="/static/js/urlUtil.js"></script>
     <script type="text/javascript" src="/static/js/validator.js"></script>
     <script type="text/javascript" src="/static/js/uploadFile.js"></script>
-    <script type="text/javascript" src="/static/js/show.js"></script>
+    <script type="text/javascript" src="/static/myjs/schedule/material.js?199508193715"></script>
+    <script type="text/javascript" src="/static/js/show1.js"></script>
     <script type="text/javascript" src="/static/js/keyDown.js"></script>
     <script type="text/javascript" src="/static/js/dialogbox.js"></script>
     <script language="javascript" src="/static/js/LodopFuncs.js"></script>
@@ -38,6 +39,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/mycss.css" />
 </head>
+
 <body onload="show(0)" style="margin-left:10px;margin-right: 10px;margin-top: 10px;">
 <div id="toolbarContain">
     <div  id="toolbar" class="om-buttonbar">
